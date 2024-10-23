@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<style>
+body {
+  background-color: #e0f2f7;
+  font-family: Arial, sans-serif;
+}
+
+img {
+    width: 140px;
+    height: 140px;
+    justify-content: center;
+   
+}
+
+.container {
+  width: 350px;
+  padding: 20px;
+  margin: 100px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff; 
+  color: white;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.login-options {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
+<body>
+ 
+<div class="container">
+  <img src="logo.png" alt="logo"> 
+
+  <h2>Login</h2>
+  <form>
+    <div>
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+    </div>
+    <div>
+      <label for="password">Senha :</label>
+      <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+    </div>
+    <button type="submit">Entrar</button>
+  </form>
+  <div class="login-options">
+    <a href="#">Acesso Administrador</a> <br>
+    <a href="#">Acesso Funcionário</a>
+  </div>
+</div>
+
+<script>
+  // obs
+</script>
+
+</body>
+</html>
